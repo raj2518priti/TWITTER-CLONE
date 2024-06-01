@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter Clone</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- sidebar starts -->
+    <div class="sidebar">
+      <i class="fab fa-twitter"></i>
+      <div class="sidebarOption active">
+        <span class="material-symbols-outlined"> home </span>
+        <h2>Home</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-symbols-outlined"> search </span>
+        <h2>Explore</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-symbols-outlined"> notifications </span>
+        <h2>Notifications</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-symbols-outlined"> mail </span>
+        <h2>Messages</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-symbols-outlined"> bookmarks </span>
+        <h2>Bookmarks</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-symbols-outlined"> list_alt_add </span>
+        <h2>Lists</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-symbols-outlined"> person </span>
+        <h2>Profiles</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-symbols-outlined"> more_horiz </span>
+        <h2>More</h2>
+      </div>
+
+      <button class="sidebar_tweet">Tweet</button>
+    </div>
+    <!-- sidebar ends -->
+
+    <!-- feed starts -->
+    <div class="feed">
+      <div class="feed_header">
+        <h2>Home</h2>
+      </div>
+
+      <!-- tweetbox starts -->
+      <div class="tweetBox">
+        <form>
+          <div class="tweetBox_input">
+            <img src="image.avif" alt="" />
+            <input type="text" placeholder="What is happening?" />
+          </div>
+          <button class="tweetBox_tweetButton">Tweet</button>
+        </form>
+      </div>
+      <!-- tweetbox ends -->
+
+      <!-- post starts -->
+      <div class="post">
+        <div class="post_avatar">
+          <img src="image.avif" alt="" />
+
+        </div>
+        <div class="post_body">
+          <div class="post_header">
+            <div class="post_headerText">
+              <h3>
+                Priti Raj
+                <span class="post_headerSpecial">
+                  <span class="material-symbols-outlined"> verified </span
+                  >@priti_raj842
+                </span>
+              </h3>
+            </div>
+            <div class="post_headerDescription">
+              <p>This is a new model car</p>
+            </div>
+          </div>
+
+          <img
+            src="https://cdn.luxe.digital/media/20230103132831/most-expensive-cars-2023-bugatti-divo-luxe-digital-780x520.jpg"
+            alt=""
+          />
+
+          <div class="post_footer">
+            <span class="material-symbols-outlined"> repeat </span>
+            <span class="material-symbols-outlined"> favorite_border </span>
+            <span class="material-symbols-outlined"> publish </span>
+          </div>
+        </div>
+      </div>
+      <!-- post ends -->
+
+      <!-- post starts -->
+      <div class="post">
+        <div class="post_avatar">
+          <img src="image.avif" alt="" />
+        </div>
+        <div class="post_body">
+          <div class="post_header">
+            <div class="post_headertext">
+              <h3>
+                Priti Raj
+                <span class="post_headerSpecial">
+                  <span class="material-symbols-outlined"> verified </span
+                  >@priti_raj842
+                </span>
+              </h3>
+            </div>
+            <div class="post_headerDescription">
+              <p>
+                Microsoft Office , is a discontinued family of client software,
+              </p>
+              <p>server software, and services developed by Microsoft.</p>
+            </div>
+          </div>
+          <!-- <img
+            src="https://cdn.luxe.digital/media/20230103132831/most-expensive-cars-2023-bugatti-divo-luxe-digital-780x520.jpg"
+            alt=""
+          /> -->
+          <img src="https://m.economictimes.com/thumb/msid-97345834,width-1200,height-900,resizemode-4,imgsize-62426/microsoft-outage.jpg" alt="" class="src">
+          <!-- <img src="https://twitter.com/Micromax__India?s=20" alt="" /> -->
+          <div class="post_footer">
+            <span class="material-symbols-outlined"> repeat </span>
+            <span class="material-symbols-outlined"> favorite_border </span>
+            <span class="material-symbols-outlined"> publish </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- post ends -->
+    </div>
+    <!-- feed ends -->
+
+    <!-- widgets starts -->
+    <div class="widgets">
+      <div class="widgets_input">
+        <span class="material-symbols-outlined">search</span>
+        <input type="text" placeholder="Search Twitter" />
+      </div>
+      <div class="widgets_widgetContainer">
+        <h2>What's happening?</h2>
+        <blockquote class="twitter-tweet">
+          <p lang="en" dir="ltr">
+            Sunsets don&#39;t get much better than this one over
+            <a href="https://twitter.com/GrandTetonNPS?ref_src=twsrc%5Etfw"
+              >@GrandTetonNPS</a
+            >.
+            <a
+              href="https://twitter.com/hashtag/nature?src=hash&amp;ref_src=twsrc%5Etfw"
+              >#nature</a
+            >
+            <a
+              href="https://twitter.com/hashtag/sunset?src=hash&amp;ref_src=twsrc%5Etfw"
+              >#sunset</a
+            >
+            <a href="http://t.co/YuKy2rcjyU">pic.twitter.com/YuKy2rcjyU</a>
+          </p>
+          &mdash; US Department of the Interior (@Interior)
+          <a
+            href="https://twitter.com/Interior/status/463440424141459456?ref_src=twsrc%5Etfw"
+            >May 5, 2014</a
+          >
+        </blockquote>
+        <script
+          async
+          src="https://platform.twitter.com/widgets.js"
+          charset="utf-8">
+        </script>
+    </script>
+
+      <!-- <a class="twitter-timeline" href="https://twitter.com/priti_raj842?ref_src=twsrc%5Etfw">Tweets by priti_raj842</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div> -->
+    </div>
+
+    <!-- widgets ends -->
+  </body>
+</html>
